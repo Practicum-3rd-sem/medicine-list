@@ -1,1 +1,1 @@
-This is to-do medicin list for dashboard.
+This is to-do medicine list for dashboard.
