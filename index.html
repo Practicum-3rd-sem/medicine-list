@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Enter your medicine detail:-</h1>
+    <form id="myform" action="#">
+      <label for="">Medicine Name: </label>
+      <input id="medname" type="text" autocomplete="off" /> <br />
+      <label for="">Timing(before eating/ after eating): </label>
+      <input type="text" id="timing" /> <br />
+      <label for="">Frequency(times/day): </label>
+      <input id="frequency" type="text" autocomplete="off" /><br />
+      <button type="submit">Add to List/Table</button>
+    </form>
+    <h2>Task List</h2>
+    <table>
+      <thead>
+        <th>Medicine name</th>
+        <th>Timing</th>
+        <th>Frequency</th>
+        <th>Status</th>
+      </thead>
+      <tbody id="tasklist"></tbody>
+    </table>
+    <!-- <ul id="tasklist"></ul> -->
+    <script src="app.js"></script>
+  </body>
+</html>
